@@ -39,11 +39,32 @@
                     <form class="bg-dark">
                         <p>Filter Search</p>
                         <ul class="bg-dark" class="list-group">
-                            <li class="bg-dark" class="list-group-item">
+                            <li class="bg-danger filter list-group-item text-dark">
                                 <label for="datetime">Enter Date</label>
+                                <br>
                                 <input type="text" placeholder="1/10/2020" id="datetime" />
                             </li>
-                            <li class="bg-dark" class="list-group-item">
+                            <li class="bg-primary filter list-group-item text-dark">
+                                <label for="shape">Enter Shape</label>
+                                <br>
+                                <input type="text" placeholder="Enter City Name" id="city"/>
+                            </li>
+                            <li class="bg-danger filter list-group-item text-dark">
+                                <label for="country">Enter Country Name</label>
+                                <br>
+                                <input type="text" placeholder="Enter Country Name" id="country" />
+                            </li>
+                            <li class="bg-primary filter list-group-item text-dark">
+                                <label for="state">Enter State Name</label>
+                                <br>
+                                <input type="text" placeholder="Enter State Name" id="state" />
+                            </li>
+                            <li class="bg-danger filter list-group-item text-dark">
+                                <label for="city">Enter City Name</label>
+                                <br>
+                                <input type="text" placeholder="Enter City Name" id="city" />
+                            </li>
+                            <li class="bg-primary filter list-group-item text-dark">
                                 <button id="filter-btn" type="button" class="btn btn-red">Filter Table</button>
                             </li>
                         </ul>
