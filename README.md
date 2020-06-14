@@ -1,2 +1,4 @@
 # UFOs
 ### For this project, I was tasked to work on an index.html file and write the code using javascript to import the data how I wanted it. I added an unidentified flying object picture underneath the jumbotron to give the viewer an idea of what a UFO looks like and I added filters at the bottom for the date, city, state, country, shape of each UFO sighting in the data.js file. I colored the filters to make them 'pop' which also gave more color to a dark formatted body. Overall, this project was challenging but javascript seems to be more straightforward when it comes to the syntax than python, which is a plus. The final product of my javascript code looks great and I will continue to refine my html and javascript skills in order to make websites look even more profound...
+
+### The Final Product is a fully functioning UFO Sightings website where people can filter results to find where UFOs were seen!
